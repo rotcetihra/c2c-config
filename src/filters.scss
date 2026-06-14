@@ -1,0 +1,197 @@
+$config: (
+    "name": "filters",
+    "properties": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "filter": (
+                    "filter-none": "none",
+                    "blur-xs": "blur(4px)",
+                    "blur-sm": "blur(8px)",
+                    "blur-md": "blur(12px)",
+                    "blur-lg": "blur(16px)",
+                    "blur-xl": "blur(24px)",
+                    "blur-2xl": "blur(40px)",
+                    "blur-3xl": "blur(64px)",
+                    "blur-none": "none",
+                    "drop-shadow-xs":
+                        "drop-shadow(0 1px 1px var(--drop-shadow-color, rgb(0 0 0 / 0.05)))",
+                    "drop-shadow-sm":
+                        "drop-shadow(0 1px 2px var(--drop-shadow-color, rgb(0 0 0 / 0.15)))",
+                    "drop-shadow-md":
+                        "drop-shadow(0 3px 3px var(--drop-shadow-color, rgb(0 0 0 / 0.12)))",
+                    "drop-shadow-lg":
+                        "drop-shadow(0 4px 4px var(--drop-shadow-color, rgb(0 0 0 / 0.15)))",
+                    "drop-shadow-xl":
+                        "drop-shadow(0 9px 7px var(--drop-shadow-color, rgb(0 0 0 / 0.1)))",
+                    "drop-shadow-2xl":
+                        "drop-shadow(0 25px 25px var(--drop-shadow-color, rgb(0 0 0 / 0.15)))",
+                    "drop-shadow-none": "drop-shadow(0 0 #0000)",
+                    "drop-shadow-inherit": "drop-shadow(0 1px 1px inherit)",
+                    "drop-shadow-current": "drop-shadow(0 1px 1px currentColor)",
+                    "drop-shadow-transparent": "drop-shadow(0 1px 1px transparent)",
+                    "grayscale": "grayscale(100%)",
+                    "invert": "invert(100%)",
+                    "sepia": "sepia(100%)",
+                ),
+                "backdrop-filter": (
+                    "backdrop-filter-none": "none",
+                    "backdrop-blur-xs": "blur(4px)",
+                    "backdrop-blur-sm": "blur(8px)",
+                    "backdrop-blur-md": "blur(12px)",
+                    "backdrop-blur-lg": "blur(16px)",
+                    "backdrop-blur-xl": "blur(24px)",
+                    "backdrop-blur-2xl": "blur(40px)",
+                    "backdrop-blur-3xl": "blur(64px)",
+                    "backdrop-blur-none": "none",
+                    "backdrop-grayscale": "grayscale(100%)",
+                    "backdrop-invert": "invert(100%)",
+                    "backdrop-sepia": "sepia(100%)",
+                ),
+            ),
+        ),
+    ),
+    "steps": (
+        (
+            "meta": (
+                "step": 0.125,
+                "from": 0,
+                "to": 20,
+                "unit": "rem",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "blur": (
+                    "filter": "blur(*)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 200,
+                "unit": "%",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "brightness": (
+                    "filter": "brightness(*)",
+                ),
+                "contrast": (
+                    "filter": "contrast(*)",
+                ),
+                "saturate": (
+                    "filter": "saturate(*)",
+                ),
+                "backdrop-brightness": (
+                    "backdrop-filter": "brightness(*)",
+                ),
+                "backdrop-contrast": (
+                    "backdrop-filter": "contrast(*)",
+                ),
+                "backdrop-saturate": (
+                    "backdrop-filter": "saturate(*)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 100,
+                "unit": "%",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "grayscale": (
+                    "filter": "grayscale(*)",
+                ),
+                "invert": (
+                    "filter": "invert(*)",
+                ),
+                "sepia": (
+                    "filter": "sepia(*)",
+                ),
+                "backdrop-grayscale": (
+                    "backdrop-filter": "grayscale(*)",
+                ),
+                "backdrop-invert": (
+                    "backdrop-filter": "invert(*)",
+                ),
+                "backdrop-opacity": (
+                    "backdrop-filter": "opacity(*)",
+                ),
+                "backdrop-sepia": (
+                    "backdrop-filter": "sepia(*)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 360,
+                "unit": "deg",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "hue-rotate": (
+                    "filter": "hue-rotate(*)",
+                ),
+                "backdrop-hue-rotate": (
+                    "backdrop-filter": "hue-rotate(*)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": -360,
+                "to": -5,
+                "unit": "deg",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "-hue-rotate": (
+                    "filter": "hue-rotate(*)",
+                ),
+                "-backdrop-hue-rotate": (
+                    "backdrop-filter": "hue-rotate(*)",
+                ),
+            ),
+        ),
+    ),
+    "palettes": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "drop-shadow": (
+                    "--drop-shadow-color": "*",
+                    "filter": "drop-shadow(0 4px 4px var(--drop-shadow-color))",
+                ),
+            ),
+        ),
+    ),
+);

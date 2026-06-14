@@ -1,0 +1,37 @@
+{
+    "name": "@rotcetihra/c2c-config",
+    "version": "1.0.0",
+    "description": "Библиотека конфигурационных матриц для атомарного CSS-компилятора C2C, построенная по философии TailwindCSS.",
+    "main": "src/index.scss",
+    "sass": "src/index.scss",
+    "files": [
+        "src",
+        "README.md",
+        "LICENSE"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rotcetihra/c2c-config.git"
+    },
+    "keywords": [
+        "sass",
+        "scss",
+        "c2c",
+        "atomic-css",
+        "tailwind",
+        "tailwindcss",
+        "aot-compiler",
+        "design-tokens",
+        "utility-first"
+    ],
+    "author": "Arhitector <rotcetihra@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rotcetihra/c2c-config/issues"
+    },
+    "homepage": "https://github.com/rotcetihra/c2c-config#readme",
+    "devDependencies": {
+        "@rotcetihra/c2c": "^1.0.1",
+        "sass": "^1.101.0"
+    }
+}

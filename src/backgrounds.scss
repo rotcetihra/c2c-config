@@ -1,0 +1,281 @@
+$config: (
+    "name": "backgrounds",
+    "properties": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "background-attachment": (
+                    "bg-fixed": "fixed",
+                    "bg-local": "local",
+                    "bg-scroll": "scroll",
+                ),
+                "background-clip": (
+                    "bg-clip-border": "border-box",
+                    "bg-clip-padding": "padding-box",
+                    "bg-clip-content": "content-box",
+                    "bg-clip-text": "text",
+                ),
+                "background-image": (
+                    "bg-none": "none",
+                ),
+                "background-origin": (
+                    "bg-origin-border": "border-box",
+                    "bg-origin-padding": "padding-box",
+                    "bg-origin-content": "content-box",
+                ),
+                "background-position": (
+                    "bg-top-left": "top left",
+                    "bg-top": "top",
+                    "bg-top-right": "top right",
+                    "bg-left": "left",
+                    "bg-center": "center",
+                    "bg-right": "right",
+                    "bg-bottom-left": "bottom left",
+                    "bg-bottom": "bottom",
+                    "bg-bottom-right": "bottom right",
+                ),
+                "background-repeat": (
+                    "bg-repeat": "repeat",
+                    "bg-repeat-x": "repeat-x",
+                    "bg-repeat-y": "repeat-y",
+                    "bg-repeat-space": "space",
+                    "bg-repeat-round": "round",
+                    "bg-no-repeat": "no-repeat",
+                ),
+                "background-size": (
+                    "bg-auto": "auto",
+                    "bg-cover": "cover",
+                    "bg-contain": "contain",
+                ),
+            ),
+        ),
+    ),
+    "classes": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "bg-linear-to-t": (
+                    "background-image": "linear-gradient(to top, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "bg-linear-to-tr": (
+                    "background-image": "linear-gradient(to top right, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "bg-linear-to-r": (
+                    "background-image": "linear-gradient(to right, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "bg-linear-to-br": (
+                    "background-image": "linear-gradient(to bottom right, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "bg-linear-to-b": (
+                    "background-image": "linear-gradient(to bottom, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "bg-linear-to-bl": (
+                    "background-image": "linear-gradient(to bottom left, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "bg-linear-to-l": (
+                    "background-image": "linear-gradient(to left, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "bg-linear-to-tl": (
+                    "background-image": "linear-gradient(to top left, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "bg-radial": (
+                    "background-image": "radial-gradient(in oklab, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+            ),
+        ),
+    ),
+    "steps": (
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 360,
+                "unit": "deg",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "bg-linear-*deg": (
+                    "background-image": "linear-gradient(* in oklab, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "bg-conic-*deg": (
+                    "background-image": "conic-gradient(from * in oklab, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": -360,
+                "to": -5,
+                "unit": "deg",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "-bg-linear-*deg": (
+                    "background-image": "linear-gradient(* in oklab, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "-bg-conic-*deg": (
+                    "background-image": "conic-gradient(from * in oklab, var(--gradient-stops))",
+                    "--gradient-from": "transparent",
+                    "--gradient-to": "transparent",
+                    "--gradient-from-position": "",
+                    "--gradient-via-position": "",
+                    "--gradient-to-position": "",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 100,
+                "unit": "%",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "from-*\\%": "--gradient-from-position",
+                "via-*\\%": "--gradient-via-position",
+                "to-*\\%": "--gradient-to-position",
+            ),
+        ),
+    ),
+    "palettes": (
+        (
+            "use": (
+                "breakpoints": true,
+                "states": (
+                    "h",
+                    "f",
+                    "a",
+                ),
+            ),
+            "values": (
+                "bg": "background-color",
+            ),
+        ),
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "from": (
+                    "--gradient-from": "*",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), transparent",
+                ),
+                "to": (
+                    "--gradient-to": "*",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+                "via": (
+                    "--gradient-via": "*",
+                    "--gradient-stops":
+                        "var(--gradient-from) var(--gradient-from-position), var(--gradient-via) var(--gradient-via-position), var(--gradient-to) var(--gradient-to-position)",
+                ),
+            ),
+        ),
+    ),
+);

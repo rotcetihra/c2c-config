@@ -1,0 +1,408 @@
+$config: (
+    "name": "transformations",
+    "properties": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "backface-visibility": (
+                    "backface-hidden": "hidden",
+                    "backface-visible": "visible",
+                ),
+                "perspective": (
+                    "perspective-dramatic": "100px",
+                    "perspective-near": "300px",
+                    "perspective-normal": "500px",
+                    "perspective-midrange": "800px",
+                    "perspective-distant": "1200px",
+                    "perspective-none": "none",
+                ),
+                "perspective-origin": (
+                    "perspective-origin-center": "center",
+                    "perspective-origin-top": "top",
+                    "perspective-origin-top-right": "top right",
+                    "perspective-origin-right": "right",
+                    "perspective-origin-bottom-right": "bottom right",
+                    "perspective-origin-bottom": "bottom",
+                    "perspective-origin-bottom-left": "bottom left",
+                    "perspective-origin-left": "left",
+                    "perspective-origin-top-left": "top left",
+                ),
+                "rotate": (
+                    "rotate-none": "none",
+                ),
+                "scale": (
+                    "scale-none": "none",
+                    "scale-3d": "var(--scale-x, 100%) var(--scale-y, 100%) var(--scale-z, 100%)",
+                ),
+                "transform": (
+                    "transform-none": "none",
+                    "transform-gpu":
+                        "translateZ(0) var(--rotate-x, rotateX(0deg)) var(--rotate-y, rotateY(0deg)) var(--rotate-z, rotateZ(0deg)) var(--skew-x, skewX(0deg)) var(--skew-y, skewY(0deg))",
+                    "transform-cpu":
+                        "var(--rotate-x, rotateX(0deg)) var(--rotate-y, rotateY(0deg)) var(--rotate-z, rotateZ(0deg)) var(--skew-x, skewX(0deg)) var(--skew-y, skewY(0deg))",
+                ),
+                "transform-origin": (
+                    "origin-center": "center",
+                    "origin-top": "top",
+                    "origin-top-right": "top right",
+                    "origin-right": "right",
+                    "origin-bottom-right": "bottom right",
+                    "origin-bottom": "bottom",
+                    "origin-bottom-left": "bottom left",
+                    "origin-left": "left",
+                    "origin-top-left": "top left",
+                ),
+                "transform-style": (
+                    "transform-3d": "preserve-3d",
+                    "transform-flat": "flat",
+                ),
+                "translate": (
+                    "translate-none": "none",
+                ),
+            ),
+        ),
+    ),
+    "classes": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "translate-full": (
+                    "--translate-x": "100%",
+                    "--translate-y": "100%",
+                    "translate": "var(--translate-x) var(--translate-y)",
+                ),
+                "-translate-full": (
+                    "--translate-x": "-100%",
+                    "--translate-y": "-100%",
+                    "translate": "var(--translate-x) var(--translate-y)",
+                ),
+                "translate-px": (
+                    "--translate-x": "1px",
+                    "--translate-y": "1px",
+                    "translate": "var(--translate-x) var(--translate-y)",
+                ),
+                "-translate-px": (
+                    "--translate-x": "-1px",
+                    "--translate-y": "-1px",
+                    "translate": "var(--translate-x) var(--translate-y)",
+                ),
+                "translate-x-full": (
+                    "--translate-x": "100%",
+                    "translate": "var(--translate-x) var(--translate-y, 0px)",
+                ),
+                "-translate-x-full": (
+                    "--translate-x": "-100%",
+                    "translate": "var(--translate-x) var(--translate-y, 0px)",
+                ),
+                "translate-x-px": (
+                    "--translate-x": "1px",
+                    "translate": "var(--translate-x) var(--translate-y, 0px)",
+                ),
+                "-translate-x-px": (
+                    "--translate-x": "-1px",
+                    "translate": "var(--translate-x) var(--translate-y, 0px)",
+                ),
+                "translate-y-full": (
+                    "--translate-y": "100%",
+                    "translate": "var(--translate-x, 0px) var(--translate-y)",
+                ),
+                "-translate-y-full": (
+                    "--translate-y": "-100%",
+                    "translate": "var(--translate-x, 0px) var(--translate-y)",
+                ),
+                "translate-y-px": (
+                    "--translate-y": "1px",
+                    "translate": "var(--translate-x, 0px) var(--translate-y)",
+                ),
+                "-translate-y-px": (
+                    "--translate-y": "-1px",
+                    "translate": "var(--translate-x, 0px) var(--translate-y)",
+                ),
+                "translate-z-full": (
+                    "--translate-z": "100%",
+                    "translate":
+                        "var(--translate-x, 0px) var(--translate-y, 0px) var(--translate-z)",
+                ),
+                "-translate-z-full": (
+                    "--translate-z": "-100%",
+                    "translate":
+                        "var(--translate-x, 0px) var(--translate-y, 0px) var(--translate-z)",
+                ),
+                "translate-z-px": (
+                    "--translate-z": "1px",
+                    "translate":
+                        "var(--translate-x, 0px) var(--translate-y, 0px) var(--translate-z)",
+                ),
+                "-translate-z-px": (
+                    "--translate-z": "-1px",
+                    "translate":
+                        "var(--translate-x, 0px) var(--translate-y, 0px) var(--translate-z)",
+                ),
+            ),
+        ),
+    ),
+    "steps": (
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 360,
+                "unit": "deg",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "rotate": "rotate",
+                "rotate-x": (
+                    "--rotate-x": "rotateX(*)",
+                ),
+                "rotate-y": (
+                    "--rotate-y": "rotateY(*)",
+                ),
+                "rotate-z": (
+                    "--rotate-z": "rotateZ(*)",
+                ),
+                "skew": (
+                    "--skew-x": "skewX(*)",
+                    "--skew-y": "skewY(*)",
+                ),
+                "skew-x": (
+                    "--skew-x": "skewX(*)",
+                ),
+                "skew-y": (
+                    "--skew-y": "skewY(*)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": -360,
+                "to": -5,
+                "unit": "deg",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "-rotate": "rotate",
+                "-rotate-x": (
+                    "--rotate-x": "rotateX(*)",
+                ),
+                "-rotate-y": (
+                    "--rotate-y": "rotateY(*)",
+                ),
+                "-rotate-z": (
+                    "--rotate-z": "rotateZ(*)",
+                ),
+                "-skew": (
+                    "--skew-x": "skewX(*)",
+                    "--skew-y": "skewY(*)",
+                ),
+                "-skew-x": (
+                    "--skew-x": "skewX(*)",
+                ),
+                "-skew-y": (
+                    "--skew-y": "skewY(*)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 200,
+                "unit": "%",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "scale": (
+                    "--scale-x": "*",
+                    "--scale-y": "*",
+                    "scale": "var(--scale-x) var(--scale-y)",
+                ),
+                "scale-x": (
+                    "--scale-x": "*",
+                    "scale": "var(--scale-x) var(--scale-y, 100%)",
+                ),
+                "scale-y": (
+                    "--scale-y": "*",
+                    "scale": "var(--scale-x, 100%) var(--scale-y)",
+                ),
+                "scale-z": (
+                    "--scale-z": "*",
+                    "scale": "var(--scale-x, 100%) var(--scale-y, 100%) var(--scale-z)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": -200,
+                "to": -5,
+                "unit": "%",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "-scale": (
+                    "--scale-x": "*",
+                    "--scale-y": "*",
+                    "scale": "var(--scale-x) var(--scale-y)",
+                ),
+                "-scale-x": (
+                    "--scale-x": "*",
+                    "scale": "var(--scale-x) var(--scale-y, 100%)",
+                ),
+                "-scale-y": (
+                    "--scale-y": "*",
+                    "scale": "var(--scale-x, 100%) var(--scale-y)",
+                ),
+                "-scale-z": (
+                    "--scale-z": "*",
+                    "scale": "var(--scale-x, 100%) var(--scale-y, 100%) var(--scale-z)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 0.125,
+                "from": 0,
+                "to": 20,
+                "unit": "rem",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "translate": (
+                    "--translate-x": "*",
+                    "--translate-y": "*",
+                    "translate": "var(--translate-x) var(--translate-y)",
+                ),
+                "translate-x": (
+                    "--translate-x": "*",
+                    "translate": "var(--translate-x) var(--translate-y, 0rem)",
+                ),
+                "translate-y": (
+                    "--translate-y": "*",
+                    "translate": "var(--translate-x, 0rem) var(--translate-y)",
+                ),
+                "translate-z": (
+                    "--translate-z": "*",
+                    "translate":
+                        "var(--translate-x, 0rem) var(--translate-y, 0rem) var(--translate-z)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 0.125,
+                "from": -20,
+                "to": -0.125,
+                "unit": "rem",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "-translate": (
+                    "--translate-x": "*",
+                    "--translate-y": "*",
+                    "translate": "var(--translate-x) var(--translate-y)",
+                ),
+                "-translate-x": (
+                    "--translate-x": "*",
+                    "translate": "var(--translate-x) var(--translate-y, 0rem)",
+                ),
+                "-translate-y": (
+                    "--translate-y": "*",
+                    "translate": "var(--translate-x, 0rem) var(--translate-y)",
+                ),
+                "-translate-z": (
+                    "--translate-z": "*",
+                    "translate":
+                        "var(--translate-x, 0rem) var(--translate-y, 0rem) var(--translate-z)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 100,
+                "unit": "%",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "translate-*\\%": (
+                    "--translate-x": "*",
+                    "--translate-y": "*",
+                    "translate": "var(--translate-x) var(--translate-y)",
+                ),
+                "translate-x-*\\%": (
+                    "--translate-x": "*",
+                    "translate": "var(--translate-x) var(--translate-y, 0%)",
+                ),
+                "translate-y-*\\%": (
+                    "--translate-y": "*",
+                    "translate": "var(--translate-x, 0%) var(--translate-y)",
+                ),
+                "translate-z-*\\%": (
+                    "--translate-z": "*",
+                    "translate": "var(--translate-x, 0%) var(--translate-y, 0%) var(--translate-z)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": -100,
+                "to": -5,
+                "unit": "%",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "-translate-*\\%": (
+                    "--translate-x": "*",
+                    "--translate-y": "*",
+                    "translate": "var(--translate-x) var(--translate-y)",
+                ),
+                "-translate-x-*\\%": (
+                    "--translate-x": "*",
+                    "translate": "var(--translate-x) var(--translate-y, 0%)",
+                ),
+                "-translate-y-*\\%": (
+                    "--translate-y": "*",
+                    "translate": "var(--translate-x, 0%) var(--translate-y)",
+                ),
+                "-translate-z-*\\%": (
+                    "--translate-z": "*",
+                    "translate": "var(--translate-x, 0%) var(--translate-y, 0%) var(--translate-z)",
+                ),
+            ),
+        ),
+    ),
+);

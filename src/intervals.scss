@@ -1,0 +1,136 @@
+$config: (
+    "name": "intervals",
+    "properties": (
+        (
+            "use": (
+                "breakpoints": true,
+                "states": false,
+            ),
+            "values": (
+                "margin": (
+                    "m-auto": "auto",
+                    "m-px": "1px",
+                    "-m-px": "-1px",
+                ),
+                "margin-inline": (
+                    "mx-auto": "auto",
+                    "mx-px": "1px",
+                    "-mx-px": "-1px",
+                ),
+                "margin-block": (
+                    "my-auto": "auto",
+                    "my-px": "1px",
+                    "-my-px": "-1px",
+                ),
+                "margin-inline-start": (
+                    "ms-auto": "auto",
+                    "ms-px": "1px",
+                    "-ms-px": "-1px",
+                ),
+                "margin-inline-end": (
+                    "me-auto": "auto",
+                    "me-px": "1px",
+                    "-me-px": "-1px",
+                ),
+                "margin-block-start": (
+                    "mbs-auto": "auto",
+                    "mbs-px": "1px",
+                    "-mbs-px": "-1px",
+                ),
+                "margin-block-end": (
+                    "mbe-auto": "auto",
+                    "mbe-px": "1px",
+                    "-mbe-px": "-1px",
+                ),
+                "margin-top": (
+                    "mt-auto": "auto",
+                    "mt-px": "1px",
+                    "-mt-px": "-1px",
+                ),
+                "margin-right": (
+                    "mr-auto": "auto",
+                    "mr-px": "1px",
+                    "-mr-px": "-1px",
+                ),
+                "margin-bottom": (
+                    "mb-auto": "auto",
+                    "mb-px": "1px",
+                    "-mb-px": "-1px",
+                ),
+                "margin-left": (
+                    "ml-auto": "auto",
+                    "ml-px": "1px",
+                    "-ml-px": "-1px",
+                ),
+            ),
+        ),
+    ),
+    "steps": (
+        (
+            "meta": (
+                "step": 0.125,
+                "from": 0,
+                "to": 20,
+                "unit": "rem",
+            ),
+            "use": (
+                "breakpoints": true,
+                "states": false,
+            ),
+            "values": (
+                "m": "margin",
+                "mx": "margin-inline",
+                "my": "margin-block",
+                "ms": "margin-inline-start",
+                "me": "margin-inline-end",
+                "mbs": "margin-block-start",
+                "mbe": "margin-block-end",
+                "mt": "margin-top",
+                "mr": "margin-right",
+                "mb": "margin-bottom",
+                "ml": "margin-left",
+                "space-x-* > :not(:last-child)": (
+                    "margin-inline-start",
+                    "margin-inline-end",
+                ),
+                "space-y-* > :not(:last-child)": (
+                    "margin-block-start",
+                    "margin-block-end",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 0.125,
+                "from": -20,
+                "to": -0.125,
+                "unit": "rem",
+            ),
+            "use": (
+                "breakpoints": true,
+                "states": false,
+            ),
+            "values": (
+                "-m": "margin",
+                "-mx": "margin-inline",
+                "-my": "margin-block",
+                "-ms": "margin-inline-start",
+                "-me": "margin-inline-end",
+                "-mbs": "margin-block-start",
+                "-mbe": "margin-block-end",
+                "-mt": "margin-top",
+                "-mr": "margin-right",
+                "-mb": "margin-bottom",
+                "-ml": "margin-left",
+                "-space-x-* > :not(:last-child)": (
+                    "margin-inline-start",
+                    "margin-inline-end",
+                ),
+                "-space-y-* > :not(:last-child)": (
+                    "margin-block-start",
+                    "margin-block-end",
+                ),
+            ),
+        ),
+    ),
+);

@@ -1,0 +1,17 @@
+$config: (
+    "name": "availability",
+    "properties": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "forced-color-adjust": (
+                    "forced-color-adjust-auto": "auto",
+                    "forced-color-adjust-none": "none",
+                ),
+            ),
+        ),
+    ),
+);

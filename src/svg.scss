@@ -1,0 +1,48 @@
+$config: (
+    "name": "svg",
+    "properties": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "fill": (
+                    "fill-none": "none",
+                ),
+                "stroke": (
+                    "stroke-none": "none",
+                ),
+            ),
+        ),
+    ),
+    "steps": (
+        (
+            "meta": (
+                "step": 1,
+                "from": 0,
+                "to": 20,
+                "unit": "",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "stroke": "stroke-width",
+            ),
+        ),
+    ),
+    "palettes": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "fill": "fill",
+                "stroke": "stroke",
+            ),
+        ),
+    ),
+);

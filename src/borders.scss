@@ -1,0 +1,567 @@
+$config: (
+    "name": "border",
+    "properties": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "border-radius": (
+                    "rounded-xs": "0.125rem",
+                    "rounded-sm": "0.25rem",
+                    "rounded-md": "0.375rem",
+                    "rounded-lg": "0.5rem",
+                    "rounded-xl": "0.75rem",
+                    "rounded-2xl": "1rem",
+                    "rounded-3xl": "1.5rem",
+                    "rounded-4xl": "2rem",
+                    "rounded-none": "0",
+                    "rounded-full": "calc(infinity * 1px)",
+                ),
+                "border-start-start-radius": (
+                    "rounded-ss-xs": "0.125rem",
+                    "rounded-ss-sm": "0.25rem",
+                    "rounded-ss-md": "0.375rem",
+                    "rounded-ss-lg": "0.5rem",
+                    "rounded-ss-xl": "0.75rem",
+                    "rounded-ss-2xl": "1rem",
+                    "rounded-ss-3xl": "1.5rem",
+                    "rounded-ss-4xl": "2rem",
+                    "rounded-ss-none": "0",
+                    "rounded-ss-full": "calc(infinity * 1px)",
+                ),
+                "border-start-end-radius": (
+                    "rounded-se-xs": "0.125rem",
+                    "rounded-se-sm": "0.25rem",
+                    "rounded-se-md": "0.375rem",
+                    "rounded-se-lg": "0.5rem",
+                    "rounded-se-xl": "0.75rem",
+                    "rounded-se-2xl": "1rem",
+                    "rounded-se-3xl": "1.5rem",
+                    "rounded-se-4xl": "2rem",
+                    "rounded-se-none": "0",
+                    "rounded-se-full": "calc(infinity * 1px)",
+                ),
+                "border-end-end-radius": (
+                    "rounded-ee-xs": "0.125rem",
+                    "rounded-ee-sm": "0.25rem",
+                    "rounded-ee-md": "0.375rem",
+                    "rounded-ee-lg": "0.5rem",
+                    "rounded-ee-xl": "0.75rem",
+                    "rounded-ee-2xl": "1rem",
+                    "rounded-ee-3xl": "1.5rem",
+                    "rounded-ee-4xl": "2rem",
+                    "rounded-ee-none": "0",
+                    "rounded-ee-full": "calc(infinity * 1px)",
+                ),
+                "border-end-start-radius": (
+                    "rounded-es-xs": "0.125rem",
+                    "rounded-es-sm": "0.25rem",
+                    "rounded-es-md": "0.375rem",
+                    "rounded-es-lg": "0.5rem",
+                    "rounded-es-xl": "0.75rem",
+                    "rounded-es-2xl": "1rem",
+                    "rounded-es-3xl": "1.5rem",
+                    "rounded-es-4xl": "2rem",
+                    "rounded-es-none": "0",
+                    "rounded-es-full": "calc(infinity * 1px)",
+                ),
+                "border-top-left-radius": (
+                    "rounded-tl-xs": "0.125rem",
+                    "rounded-tl-sm": "0.25rem",
+                    "rounded-tl-md": "0.375rem",
+                    "rounded-tl-lg": "0.5rem",
+                    "rounded-tl-xl": "0.75rem",
+                    "rounded-tl-2xl": "1rem",
+                    "rounded-tl-3xl": "1.5rem",
+                    "rounded-tl-4xl": "2rem",
+                    "rounded-tl-none": "0",
+                    "rounded-tl-full": "calc(infinity * 1px)",
+                ),
+                "border-top-right-radius": (
+                    "rounded-tr-xs": "0.125rem",
+                    "rounded-tr-sm": "0.25rem",
+                    "rounded-tr-md": "0.375rem",
+                    "rounded-tr-lg": "0.5rem",
+                    "rounded-tr-xl": "0.75rem",
+                    "rounded-tr-2xl": "1rem",
+                    "rounded-tr-3xl": "1.5rem",
+                    "rounded-tr-4xl": "2rem",
+                    "rounded-tr-none": "0",
+                    "rounded-tr-full": "calc(infinity * 1px)",
+                ),
+                "border-bottom-right-radius": (
+                    "rounded-br-xs": "0.125rem",
+                    "rounded-br-sm": "0.25rem",
+                    "rounded-br-md": "0.375rem",
+                    "rounded-br-lg": "0.5rem",
+                    "rounded-br-xl": "0.75rem",
+                    "rounded-br-2xl": "1rem",
+                    "rounded-br-3xl": "1.5rem",
+                    "rounded-br-4xl": "2rem",
+                    "rounded-br-none": "0",
+                    "rounded-br-full": "calc(infinity * 1px)",
+                ),
+                "border-bottom-left-radius": (
+                    "rounded-bl-xs": "0.125rem",
+                    "rounded-bl-sm": "0.25rem",
+                    "rounded-bl-md": "0.375rem",
+                    "rounded-bl-lg": "0.5rem",
+                    "rounded-bl-xl": "0.75rem",
+                    "rounded-bl-2xl": "1rem",
+                    "rounded-bl-3xl": "1.5rem",
+                    "rounded-bl-4xl": "2rem",
+                    "rounded-bl-none": "0",
+                    "rounded-bl-full": "calc(infinity * 1px)",
+                ),
+                "border-width": (
+                    "border": "1px",
+                ),
+                "border-inline-width": (
+                    "border-x": "1px",
+                ),
+                "border-block-width": (
+                    "border-y": "1px",
+                ),
+                "border-inline-start-width": (
+                    "border-s": "1px",
+                ),
+                "border-inline-end-width": (
+                    "border-e": "1px",
+                ),
+                "border-block-start-width": (
+                    "border-bs": "1px",
+                ),
+                "border-block-end-width": (
+                    "border-be": "1px",
+                ),
+                "border-top-width": (
+                    "border-t": "1px",
+                ),
+                "border-right-width": (
+                    "border-r": "1px",
+                ),
+                "border-bottom-width": (
+                    "border-b": "1px",
+                ),
+                "border-left-width": (
+                    "border-l": "1px",
+                ),
+                "border-style": (
+                    "border-solid": "solid",
+                    "border-dashed": "dashed",
+                    "border-dotted": "dotted",
+                    "border-double": "double",
+                    "border-hidden": "hidden",
+                    "border-none": "none",
+                ),
+                "outline-width": (
+                    "outline": "1px",
+                ),
+                "outline-style": (
+                    "outline-solid": "solid",
+                    "outline-dashed": "dashed",
+                    "outline-dotted": "dotted",
+                    "outline-double": "double",
+                    "outline-none": "none",
+                ),
+            ),
+        ),
+    ),
+    "classes": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "rounded-s-xs": (
+                    "border-start-start-radius": "0.125rem",
+                    "border-end-start-radius": "0.125rem",
+                ),
+                "rounded-s-sm": (
+                    "border-start-start-radius": "0.25rem",
+                    "border-end-start-radius": "0.25rem",
+                ),
+                "rounded-s-md": (
+                    "border-start-start-radius": "0.375rem",
+                    "border-end-start-radius": "0.375rem",
+                ),
+                "rounded-s-lg": (
+                    "border-start-start-radius": "0.5rem",
+                    "border-end-start-radius": "0.5rem",
+                ),
+                "rounded-s-xl": (
+                    "border-start-start-radius": "0.75rem",
+                    "border-end-start-radius": "0.75rem",
+                ),
+                "rounded-s-2xl": (
+                    "border-start-start-radius": "1rem",
+                    "border-end-start-radius": "1rem",
+                ),
+                "rounded-s-3xl": (
+                    "border-start-start-radius": "1.5rem",
+                    "border-end-start-radius": "1.5rem",
+                ),
+                "rounded-s-4xl": (
+                    "border-start-start-radius": "2rem",
+                    "border-end-start-radius": "2rem",
+                ),
+                "rounded-s-none": (
+                    "border-start-start-radius": "0",
+                    "border-end-start-radius": "0",
+                ),
+                "rounded-s-full": (
+                    "border-start-start-radius": "calc(infinity * 1px)",
+                    "border-end-start-radius": "calc(infinity * 1px)",
+                ),
+                "rounded-e-xs": (
+                    "border-start-end-radius": "0.125rem",
+                    "border-end-end-radius": "0.125rem",
+                ),
+                "rounded-e-sm": (
+                    "border-start-end-radius": "0.25rem",
+                    "border-end-end-radius": "0.25rem",
+                ),
+                "rounded-e-md": (
+                    "border-start-end-radius": "0.375rem",
+                    "border-end-end-radius": "0.375rem",
+                ),
+                "rounded-e-lg": (
+                    "border-start-end-radius": "0.5rem",
+                    "border-end-end-radius": "0.5rem",
+                ),
+                "rounded-e-xl": (
+                    "border-start-end-radius": "0.75rem",
+                    "border-end-end-radius": "0.75rem",
+                ),
+                "rounded-e-2xl": (
+                    "border-start-end-radius": "1rem",
+                    "border-end-end-radius": "1rem",
+                ),
+                "rounded-e-3xl": (
+                    "border-start-end-radius": "1.5rem",
+                    "border-end-end-radius": "1.5rem",
+                ),
+                "rounded-e-4xl": (
+                    "border-start-end-radius": "2rem",
+                    "border-end-end-radius": "2rem",
+                ),
+                "rounded-e-none": (
+                    "border-start-end-radius": "0",
+                    "border-end-end-radius": "0",
+                ),
+                "rounded-e-full": (
+                    "border-start-end-radius": "calc(infinity * 1px)",
+                    "border-end-end-radius": "calc(infinity * 1px)",
+                ),
+                "rounded-t-xs": (
+                    "border-top-left-radius": "0.125rem",
+                    "border-top-right-radius": "0.125rem",
+                ),
+                "rounded-t-sm": (
+                    "border-top-left-radius": "0.25rem",
+                    "border-top-right-radius": "0.25rem",
+                ),
+                "rounded-t-md": (
+                    "border-top-left-radius": "0.375rem",
+                    "border-top-right-radius": "0.375rem",
+                ),
+                "rounded-t-lg": (
+                    "border-top-left-radius": "0.5rem",
+                    "border-top-right-radius": "0.5rem",
+                ),
+                "rounded-t-xl": (
+                    "border-top-left-radius": "0.75rem",
+                    "border-top-right-radius": "0.75rem",
+                ),
+                "rounded-t-2xl": (
+                    "border-top-left-radius": "1rem",
+                    "border-top-right-radius": "1rem",
+                ),
+                "rounded-t-3xl": (
+                    "border-top-left-radius": "1.5rem",
+                    "border-top-right-radius": "1.5rem",
+                ),
+                "rounded-t-4xl": (
+                    "border-top-left-radius": "2rem",
+                    "border-top-right-radius": "2rem",
+                ),
+                "rounded-t-none": (
+                    "border-top-left-radius": "0",
+                    "border-top-right-radius": "0",
+                ),
+                "rounded-t-full": (
+                    "border-top-left-radius": "calc(infinity * 1px)",
+                    "border-top-right-radius": "calc(infinity * 1px)",
+                ),
+                "rounded-r-xs": (
+                    "border-top-right-radius": "0.125rem",
+                    "border-bottom-right-radius": "0.125rem",
+                ),
+                "rounded-r-sm": (
+                    "border-top-right-radius": "0.25rem",
+                    "border-bottom-right-radius": "0.25rem",
+                ),
+                "rounded-r-md": (
+                    "border-top-right-radius": "0.375rem",
+                    "border-bottom-right-radius": "0.375rem",
+                ),
+                "rounded-r-lg": (
+                    "border-top-right-radius": "0.5rem",
+                    "border-bottom-right-radius": "0.5rem",
+                ),
+                "rounded-r-xl": (
+                    "border-top-right-radius": "0.75rem",
+                    "border-bottom-right-radius": "0.75rem",
+                ),
+                "rounded-r-2xl": (
+                    "border-top-right-radius": "1rem",
+                    "border-bottom-right-radius": "1rem",
+                ),
+                "rounded-r-3xl": (
+                    "border-top-right-radius": "1.5rem",
+                    "border-bottom-right-radius": "1.5rem",
+                ),
+                "rounded-r-4xl": (
+                    "border-top-right-radius": "2rem",
+                    "border-bottom-right-radius": "2rem",
+                ),
+                "rounded-r-none": (
+                    "border-top-right-radius": "0",
+                    "border-bottom-right-radius": "0",
+                ),
+                "rounded-r-full": (
+                    "border-top-right-radius": "calc(infinity * 1px)",
+                    "border-bottom-right-radius": "calc(infinity * 1px)",
+                ),
+                "rounded-b-xs": (
+                    "border-bottom-left-radius": "0.125rem",
+                    "border-bottom-right-radius": "0.125rem",
+                ),
+                "rounded-b-sm": (
+                    "border-bottom-left-radius": "0.25rem",
+                    "border-bottom-right-radius": "0.25rem",
+                ),
+                "rounded-b-md": (
+                    "border-bottom-left-radius": "0.375rem",
+                    "border-bottom-right-radius": "0.375rem",
+                ),
+                "rounded-b-lg": (
+                    "border-bottom-left-radius": "0.5rem",
+                    "border-bottom-right-radius": "0.5rem",
+                ),
+                "rounded-b-xl": (
+                    "border-bottom-left-radius": "0.75rem",
+                    "border-bottom-right-radius": "0.75rem",
+                ),
+                "rounded-b-2xl": (
+                    "border-bottom-left-radius": "1rem",
+                    "border-bottom-right-radius": "1rem",
+                ),
+                "rounded-b-3xl": (
+                    "border-bottom-left-radius": "1.5rem",
+                    "border-bottom-right-radius": "1.5rem",
+                ),
+                "rounded-b-4xl": (
+                    "border-bottom-left-radius": "2rem",
+                    "border-bottom-right-radius": "2rem",
+                ),
+                "rounded-b-none": (
+                    "border-bottom-left-radius": "0",
+                    "border-bottom-right-radius": "0",
+                ),
+                "rounded-b-full": (
+                    "border-bottom-left-radius": "calc(infinity * 1px)",
+                    "border-bottom-right-radius": "calc(infinity * 1px)",
+                ),
+                "rounded-l-xs": (
+                    "border-top-left-radius": "0.125rem",
+                    "border-bottom-left-radius": "0.125rem",
+                ),
+                "rounded-l-sm": (
+                    "border-top-left-radius": "0.25rem",
+                    "border-bottom-left-radius": "0.25rem",
+                ),
+                "rounded-l-md": (
+                    "border-top-left-radius": "0.375rem",
+                    "border-bottom-left-radius": "0.375rem",
+                ),
+                "rounded-l-lg": (
+                    "border-top-left-radius": "0.5rem",
+                    "border-bottom-left-radius": "0.5rem",
+                ),
+                "rounded-l-xl": (
+                    "border-top-left-radius": "0.75rem",
+                    "border-bottom-left-radius": "0.75rem",
+                ),
+                "rounded-l-2xl": (
+                    "border-top-left-radius": "1rem",
+                    "border-bottom-left-radius": "1rem",
+                ),
+                "rounded-l-3xl": (
+                    "border-top-left-radius": "1.5rem",
+                    "border-bottom-left-radius": "1.5rem",
+                ),
+                "rounded-l-4xl": (
+                    "border-top-left-radius": "2rem",
+                    "border-bottom-left-radius": "2rem",
+                ),
+                "rounded-l-none": (
+                    "border-top-left-radius": "0",
+                    "border-bottom-left-radius": "0",
+                ),
+                "rounded-l-full": (
+                    "border-top-left-radius": "calc(infinity * 1px)",
+                    "border-bottom-left-radius": "calc(infinity * 1px)",
+                ),
+                "divide-x > :not(:last-child)": (
+                    "border-inline-start-width": "0px",
+                    "border-inline-end-width": "1px",
+                ),
+                "divide-y > :not(:last-child)": (
+                    "border-top-width": "0px",
+                    "border-bottom-width": "1px",
+                ),
+                "divide-solid > :not(:last-child)": (
+                    "border-style": "solid",
+                ),
+                "divide-dashed > :not(:last-child)": (
+                    "border-style": "dashed",
+                ),
+                "divide-dotted > :not(:last-child)": (
+                    "border-style": "dotted",
+                ),
+                "divide-double > :not(:last-child)": (
+                    "border-style": "double",
+                ),
+                "divide-hidden > :not(:last-child)": (
+                    "border-style": "hidden",
+                ),
+                "divide-none > :not(:last-child)": (
+                    "border-style": "none",
+                ),
+                "outline-hidden": (
+                    "outline": "2px solid transparent",
+                    "outline-offset": "2px",
+                ),
+            ),
+        ),
+    ),
+    "steps": (
+        (
+            "meta": (
+                "step": 0.125,
+                "from": 0,
+                "to": 10,
+                "unit": "rem",
+            ),
+            "use": (
+                "breakpoints": true,
+                "states": false,
+            ),
+            "values": (
+                "rounded": "border-radius",
+                "rounded-s": (
+                    "border-start-start-radius",
+                    "border-end-start-radius",
+                ),
+                "rounded-e": (
+                    "border-start-end-radius",
+                    "border-end-end-radius",
+                ),
+                "rounded-t": (
+                    "border-top-left-radius",
+                    "border-top-right-radius",
+                ),
+                "rounded-r": (
+                    "border-top-right-radius",
+                    "border-bottom-right-radius",
+                ),
+                "rounded-b": (
+                    "border-bottom-left-radius",
+                    "border-bottom-right-radius",
+                ),
+                "rounded-l": (
+                    "border-top-left-radius",
+                    "border-bottom-left-radius",
+                ),
+                "rounded-ss": "border-start-start-radius",
+                "rounded-se": "border-start-end-radius",
+                "rounded-ee": "border-end-end-radius",
+                "rounded-es": "border-end-start-radius",
+                "rounded-tl": "border-top-left-radius",
+                "rounded-tr": "border-top-right-radius",
+                "rounded-br": "border-bottom-right-radius",
+                "rounded-bl": "border-bottom-left-radius",
+            ),
+        ),
+        (
+            "meta": (
+                "step": 1,
+                "from": 0,
+                "to": 10,
+                "unit": "px",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "border": "border-width",
+                "border-x": "border-inline-width",
+                "border-y": "border-block-width",
+                "border-s": "border-inline-start-width",
+                "border-e": "border-inline-end-width",
+                "border-bs": "border-block-start-width",
+                "border-be": "border-block-end-width",
+                "border-t": "border-top-width",
+                "border-r": "border-right-width",
+                "border-b": "border-bottom-width",
+                "border-l": "border-left-width",
+                "divide-x-* > :not(:last-child)": (
+                    "border-inline-start-width": "0px",
+                    "border-inline-end-width": "*",
+                ),
+                "divide-y-* > :not(:last-child)": (
+                    "border-top-width": "0px",
+                    "border-bottom-width": "*",
+                ),
+                "outline": "outline-width",
+                "outline-offset": "outline-offset",
+            ),
+        ),
+        (
+            "meta": (
+                "step": 1,
+                "from": -10,
+                "to": -1,
+                "unit": "px",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "-outline-offset": "outline-offset",
+            ),
+        ),
+    ),
+    "palettes": (
+        (
+            "use": (
+                "breakpoints": true,
+                "states": (
+                    "h",
+                    "f",
+                    "a",
+                ),
+            ),
+            "values": (
+                "border": "border-color",
+                "outline": "outline-color",
+            ),
+        ),
+    ),
+);

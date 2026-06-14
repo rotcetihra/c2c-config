@@ -1,0 +1,54 @@
+$config: (
+    "name": "tables",
+    "properties": (
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "border-collapse": (
+                    "border-collapse": "collapse",
+                    "border-separate": "separate",
+                ),
+                "table-layout": (
+                    "table-auto": "auto",
+                    "table-fixed": "fixed",
+                ),
+                "caption-side": (
+                    "caption-top": "top",
+                    "caption-bottom": "bottom",
+                ),
+            ),
+        ),
+    ),
+    "steps": (
+        (
+            "meta": (
+                "step": 0.125,
+                "from": 0,
+                "to": 10,
+                "unit": "rem",
+            ),
+            "use": (
+                "breakpoints": true,
+                "states": false,
+            ),
+            "values": (
+                "border-spacing": (
+                    "--border-spacing-x": "*",
+                    "--border-spacing-y": "*",
+                    "border-spacing": "var(--border-spacing-x) var(--border-spacing-y)",
+                ),
+                "border-spacing-x": (
+                    "--border-spacing-x": "*",
+                    "border-spacing": "var(--border-spacing-x) var(--border-spacing-y, 0rem)",
+                ),
+                "border-spacing-y": (
+                    "--border-spacing-y": "*",
+                    "border-spacing": "var(--border-spacing-x, 0rem) var(--border-spacing-y)",
+                ),
+            ),
+        ),
+    ),
+);

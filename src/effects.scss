@@ -1,0 +1,711 @@
+$config: (
+    "name": "effects",
+    "properties": (
+        (
+            "use": (
+                "breakpoints": true,
+                "states": (
+                    "h",
+                    "f",
+                    "a",
+                ),
+            ),
+            "values": (
+                "--shadow-inset": (
+                    "shadow-inset": "inset",
+                ),
+                "--ring-inset": (
+                    "ring-inset": "inset",
+                ),
+                "mix-blend-mode": (
+                    "mix-blend-normal": "normal",
+                    "mix-blend-multiply": "multiply",
+                    "mix-blend-screen": "screen",
+                    "mix-blend-overlay": "overlay",
+                    "mix-blend-darken": "darken",
+                    "mix-blend-lighten": "lighten",
+                    "mix-blend-color-dodge": "color-dodge",
+                    "mix-blend-color-burn": "color-burn",
+                    "mix-blend-hard-light": "hard-light",
+                    "mix-blend-soft-light": "soft-light",
+                    "mix-blend-difference": "difference",
+                    "mix-blend-exclusion": "exclusion",
+                    "mix-blend-hue": "hue",
+                    "mix-blend-saturation": "saturation",
+                    "mix-blend-color": "color",
+                    "mix-blend-luminosity": "luminosity",
+                    "mix-blend-plus-darker": "plus-darker",
+                    "mix-blend-plus-lighter": "plus-lighter",
+                ),
+                "background-blend-mode": (
+                    "bg-blend-normal": "normal",
+                    "bg-blend-multiply": "multiply",
+                    "bg-blend-screen": "screen",
+                    "bg-blend-overlay": "overlay",
+                    "bg-blend-darken": "darken",
+                    "bg-blend-lighten": "lighten",
+                    "bg-blend-color-dodge": "color-dodge",
+                    "bg-blend-color-burn": "color-burn",
+                    "bg-blend-hard-light": "hard-light",
+                    "bg-blend-soft-light": "soft-light",
+                    "bg-blend-difference": "difference",
+                    "bg-blend-exclusion": "exclusion",
+                    "bg-blend-hue": "hue",
+                    "bg-blend-saturation": "saturation",
+                    "bg-blend-color": "color",
+                    "bg-blend-luminosity": "luminosity",
+                ),
+                "mask-clip": (
+                    "mask-clip-border": "border-box",
+                    "mask-clip-padding": "padding-box",
+                    "mask-clip-content": "content-box",
+                    "mask-clip-fill": "fill-box",
+                    "mask-clip-stroke": "stroke-box",
+                    "mask-clip-view": "view-box",
+                    "mask-no-clip": "no-clip",
+                ),
+                "mask-composite": (
+                    "mask-add": "add",
+                    "mask-subtract": "subtract",
+                    "mask-intersect": "intersect",
+                    "mask-exclude": "exclude",
+                ),
+                "mask-image": (
+                    "mask-none": "none",
+                ),
+                "mask-mode": (
+                    "mask-alpha": "alpha",
+                    "mask-luminance": "luminance",
+                    "mask-match": "match-source",
+                ),
+                "mask-origin": (
+                    "mask-origin-border": "border-box",
+                    "mask-origin-padding": "padding-box",
+                    "mask-origin-content": "content-box",
+                    "mask-origin-fill": "fill-box",
+                    "mask-origin-stroke": "stroke-box",
+                    "mask-origin-view": "view-box",
+                ),
+                "mask-position": (
+                    "mask-top-left": "top left",
+                    "mask-top": "top",
+                    "mask-top-right": "top right",
+                    "mask-left": "left",
+                    "mask-center": "center",
+                    "mask-right": "right",
+                    "mask-bottom-left": "bottom left",
+                    "mask-bottom": "bottom",
+                    "mask-bottom-right": "bottom right",
+                ),
+                "mask-repeat": (
+                    "mask-repeat": "repeat",
+                    "mask-no-repeat": "no-repeat",
+                    "mask-repeat-x": "repeat-x",
+                    "mask-repeat-y": "repeat-y",
+                    "mask-repeat-space": "space",
+                    "mask-repeat-round": "round",
+                ),
+                "mask-size": (
+                    "mask-auto": "auto",
+                    "mask-cover": "cover",
+                    "mask-contain": "contain",
+                ),
+                "mask-type": (
+                    "mask-type-alpha": "alpha",
+                    "mask-type-luminance": "luminance",
+                ),
+            ),
+        ),
+    ),
+    "classes": (
+        (
+            "use": (
+                "breakpoints": true,
+                "states": (
+                    "h",
+                    "f",
+                    "a",
+                ),
+            ),
+            "values": (
+                "shadow-2xs": (
+                    "--shadow-color": "rgb(0 0 0 / 0.05)",
+                    "--shadow-values": "var(--shadow-inset, ) 0 1px var(--shadow-color)",
+                    "box-shadow": "var(--ring-values, 0 0 #0000), var(--shadow-values)",
+                ),
+                "shadow-xs": (
+                    "--shadow-color": "rgb(0 0 0 / 0.05)",
+                    "--shadow-values": "var(--shadow-inset, ) 0 1px 2px 0 var(--shadow-color)",
+                    "box-shadow": "var(--ring-values, 0 0 #0000), var(--shadow-values)",
+                ),
+                "shadow-sm": (
+                    "--shadow-color": "rgb(0 0 0 / 0.1)",
+                    "--shadow-values":
+                        "var(--shadow-inset, ) 0 1px 3px 0 var(--shadow-color), var(--shadow-inset, ) 0 1px 2px -1px var(--shadow-color)",
+                    "box-shadow": "var(--ring-values, 0 0 #0000), var(--shadow-values)",
+                ),
+                "shadow-md": (
+                    "--shadow-color": "rgb(0 0 0 / 0.1)",
+                    "--shadow-values":
+                        "var(--shadow-inset, ) 0 4px 6px -1px var(--shadow-color), var(--shadow-inset, ) 0 2px 4px -2px var(--shadow-color)",
+                    "box-shadow": "var(--ring-values, 0 0 #0000), var(--shadow-values)",
+                ),
+                "shadow-lg": (
+                    "--shadow-color": "rgb(0 0 0 / 0.1)",
+                    "--shadow-values":
+                        "var(--shadow-inset, ) 0 10px 15px -3px var(--shadow-color), var(--shadow-inset, ) 0 4px 6px -4px var(--shadow-color)",
+                    "box-shadow": "var(--ring-values, 0 0 #0000), var(--shadow-values)",
+                ),
+                "shadow-xl": (
+                    "--shadow-color": "rgb(0 0 0 / 0.1)",
+                    "--shadow-values":
+                        "var(--shadow-inset, ) 0 20px 25px -5px var(--shadow-color), var(--shadow-inset, ) 0 8px 10px -6px var(--shadow-color)",
+                    "box-shadow": "var(--ring-values, 0 0 #0000), var(--shadow-values)",
+                ),
+                "shadow-2xl": (
+                    "--shadow-color": "rgb(0 0 0 / 0.25)",
+                    "--shadow-values": "var(--shadow-inset, ) 0 25px 50px -12px var(--shadow-color)",
+                    "box-shadow": "var(--ring-values, 0 0 #0000), var(--shadow-values)",
+                ),
+                "shadow-none": (
+                    "--shadow-values": "0 0 #0000",
+                    "box-shadow": "var(--ring-values, 0 0 #0000), var(--shadow-values)",
+                ),
+                "ring": (
+                    "--ring-color": "rgb(59 130 246 / 0.5)",
+                    "--ring-values": "var(--ring-inset, ) 0 0 0 1px var(--ring-color)",
+                    "box-shadow": "var(--ring-values), var(--shadow-values, 0 0 #0000)",
+                ),
+                "ring-none": (
+                    "--ring-values": "0 0 #0000",
+                    "box-shadow": "var(--ring-values), var(--shadow-values, 0 0 #0000)",
+                ),
+                "text-shadow-2xs": (
+                    "--text-shadow-color": "rgb(0 0 0 / 0.15)",
+                    "--text-shadow-values": "0px 1px 0px var(--text-shadow-color)",
+                    "text-shadow": "var(--text-shadow-values)",
+                ),
+                "text-shadow-xs": (
+                    "--text-shadow-color": "rgb(0 0 0 / 0.2)",
+                    "--text-shadow-values": "0px 1px 1px var(--text-shadow-color)",
+                    "text-shadow": "var(--text-shadow-values)",
+                ),
+                "text-shadow-sm": (
+                    "--text-shadow-color": "rgb(0 0 0 / 0.075)",
+                    "--text-shadow-values":
+                        "0px 1px 0px var(--text-shadow-color), 0px 1px 1px var(--text-shadow-color), 0px 2px 2px var(--text-shadow-color)",
+                    "text-shadow": "var(--text-shadow-values)",
+                ),
+                "text-shadow-md": (
+                    "--text-shadow-color": "rgb(0 0 0 / 0.1)",
+                    "--text-shadow-values":
+                        "0px 1px 1px var(--text-shadow-color), 0px 1px 2px var(--text-shadow-color), 0px 2px 4px var(--text-shadow-color)",
+                    "text-shadow": "var(--text-shadow-values)",
+                ),
+                "text-shadow-lg": (
+                    "--text-shadow-color": "rgb(0 0 0 / 0.1)",
+                    "--text-shadow-values":
+                        "0px 1px 2px var(--text-shadow-color), 0px 3px 2px var(--text-shadow-color), 0px 4px 8px var(--text-shadow-color)",
+                    "text-shadow": "var(--text-shadow-values)",
+                ),
+                "text-shadow-none": (
+                    "--text-shadow-values": "none",
+                    "text-shadow": "var(--text-shadow-values)",
+                ),
+                "mask-circle": (
+                    "--mask-radial-shape": "circle",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-ellipse": (
+                    "--mask-radial-shape": "ellipse",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-closest-corner": (
+                    "--mask-radial-size": "closest-corner",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-closest-side": (
+                    "--mask-radial-size": "closest-side",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-farthest-corner": (
+                    "--mask-radial-size": "farthest-corner",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-farthest-side": (
+                    "--mask-radial-size": "farthest-side",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-at-top-left": (
+                    "--mask-radial-position": "top left",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-at-top": (
+                    "--mask-radial-position": "top",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-at-top-right": (
+                    "--mask-radial-position": "top right",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-at-left": (
+                    "--mask-radial-position": "left",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-at-center": (
+                    "--mask-radial-position": "center",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-at-right": (
+                    "--mask-radial-position": "right",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-at-bottom-left": (
+                    "--mask-radial-position": "bottom left",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-at-bottom": (
+                    "--mask-radial-position": "bottom",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-at-bottom-right": (
+                    "--mask-radial-position": "bottom right",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+            ),
+        ),
+    ),
+    "steps": (
+        (
+            "meta": (
+                "step": 1,
+                "from": 2,
+                "to": 20,
+                "unit": "px",
+            ),
+            "use": (
+                "breakpoints": true,
+                "states": false,
+            ),
+            "values": (
+                "ring": (
+                    "--ring-values": "var(--ring-inset, ) 0 0 0 * var(--ring-color)",
+                    "box-shadow": "var(--ring-values), var(--shadow-values, 0 0 #0000)",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 100,
+                "unit": "%",
+            ),
+            "use": (
+                "breakpoints": true,
+                "states": false,
+            ),
+            "values": (
+                "opacity": "opacity",
+            ),
+        ),
+        (
+            "meta": (
+                "step": 0.125,
+                "from": 0,
+                "to": 20,
+                "unit": "rem",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "mask-linear-from": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(var(--mask-linear-position, 0deg), var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-linear-to": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(var(--mask-linear-position, 0deg), var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-t-from": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-t-to": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-r-from": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-r-to": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-b-from": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-b-to": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-l-from": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-l-to": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-y-from": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%)), linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-y-to": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to)), linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-x-from": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%)), linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-x-to": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to)), linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-radial-from": (
+                    "--mask-radial-from": "*",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-to": (
+                    "--mask-radial-to": "*",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to))",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 100,
+                "unit": "%",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "mask-linear-from-*\\%": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(var(--mask-linear-position, 0deg), var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-linear-to-*\\%": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(var(--mask-linear-position, 0deg), var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-t-from-*\\%": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-t-to-*\\%": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-r-from-*\\%": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-r-to-*\\%": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-b-from-*\\%": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-b-to-*\\%": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-l-from-*\\%": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-l-to-*\\%": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to))",
+                ),
+                "mask-y-from-*\\%": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%)), linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-y-to-*\\%": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%)), linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-x-from-*\\%": (
+                    "--mask-linear-from": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%)), linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-x-to-*\\%": (
+                    "--mask-linear-to": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%)), linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-radial-from-*\\%": (
+                    "--mask-radial-from": "*",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-to-*\\%": (
+                    "--mask-radial-to": "*",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to))",
+                ),
+                "mask-conic-from-*\\%": (
+                    "--mask-conic-from": "*",
+                    "mask-image":
+                        "conic-gradient(from var(--mask-conic-position, 0deg), var(--mask-conic-from-color, black) var(--mask-conic-from), var(--mask-conic-to-color, transparent) var(--mask-conic-to, 100%))",
+                ),
+                "mask-conic-to-*\\%": (
+                    "--mask-conic-to": "*",
+                    "mask-image":
+                        "conic-gradient(from var(--mask-conic-position, 0deg), var(--mask-conic-from-color, black) var(--mask-conic-from, 0%), var(--mask-conic-to-color, transparent) var(--mask-conic-to))",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": 0,
+                "to": 360,
+                "unit": "deg",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "mask-linear": (
+                    "--mask-linear-position": "*",
+                    "mask-image":
+                        "linear-gradient(var(--mask-linear-position), var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-conic": (
+                    "--mask-conic-position": "*",
+                    "mask-image":
+                        "conic-gradient(from var(--mask-conic-position), var(--mask-conic-from-color, black) var(--mask-conic-from, 0%), var(--mask-conic-to-color, transparent) var(--mask-conic-to, 100%))",
+                ),
+                "mask-conic-from": (
+                    "--mask-conic-from": "*",
+                    "mask-image":
+                        "conic-gradient(from var(--mask-conic-position, 0deg), var(--mask-conic-from-color, black) var(--mask-conic-from), var(--mask-conic-to-color, transparent) var(--mask-conic-to, 100%))",
+                ),
+                "mask-conic-to": (
+                    "--mask-conic-to": "*",
+                    "mask-image":
+                        "conic-gradient(from var(--mask-conic-position, 0deg), var(--mask-conic-from-color, black) var(--mask-conic-from, 0%), var(--mask-conic-to-color, transparent) var(--mask-conic-to))",
+                ),
+            ),
+        ),
+        (
+            "meta": (
+                "step": 5,
+                "from": -360,
+                "to": -5,
+                "unit": "deg",
+            ),
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "-mask-linear": (
+                    "--mask-linear-position": "*",
+                    "mask-image":
+                        "linear-gradient(var(--mask-linear-position), var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "-mask-conic": (
+                    "--mask-conic-position": "*",
+                    "mask-image":
+                        "conic-gradient(from var(--mask-conic-position), var(--mask-conic-from-color, black) var(--mask-conic-from, 0%), var(--mask-conic-to-color, transparent) var(--mask-conic-to, 100%))",
+                ),
+            ),
+        ),
+    ),
+    "palettes": (
+        (
+            "use": (
+                "breakpoints": true,
+                "states": (
+                    "h",
+                    "f",
+                    "a",
+                ),
+            ),
+            "values": (
+                "shadow": "--shadow-color",
+                "ring": "--ring-color",
+                "text-shadow": "--text-shadow-color",
+            ),
+        ),
+        (
+            "use": (
+                "breakpoints": false,
+                "states": false,
+            ),
+            "values": (
+                "mask-linear-from": (
+                    "--mask-linear-from-color": "*",
+                    "mask-image":
+                        "linear-gradient(var(--mask-linear-position, 0deg), var(--mask-linear-from-color) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-linear-to": (
+                    "--mask-linear-to-color": "*",
+                    "mask-image":
+                        "linear-gradient(var(--mask-linear-position, 0deg), var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color) var(--mask-linear-to, 100%))",
+                ),
+                "mask-t-from": (
+                    "--mask-linear-from-color": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-t-to": (
+                    "--mask-linear-to-color": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color) var(--mask-linear-to, 100%))",
+                ),
+                "mask-r-from": (
+                    "--mask-linear-from-color": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-r-to": (
+                    "--mask-linear-to-color": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color) var(--mask-linear-to, 100%))",
+                ),
+                "mask-b-from": (
+                    "--mask-linear-from-color": "*",
+                    "mask-image":
+                        "linear-gradient(to bottom, var(--mask-linear-from-color) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-b-to": (
+                    "--mask-linear-to-color": "*",
+                    "mask-image":
+                        "linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color) var(--mask-linear-to, 100%))",
+                ),
+                "mask-l-from": (
+                    "--mask-linear-from-color": "*",
+                    "mask-image":
+                        "linear-gradient(to left, var(--mask-linear-from-color) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                ),
+                "mask-l-to": (
+                    "--mask-linear-to-color": "*",
+                    "mask-image":
+                        "linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color) var(--mask-linear-to, 100%))",
+                ),
+                "mask-y-from": (
+                    "--mask-linear-from-color": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%)), linear-gradient(to bottom, var(--mask-linear-from-color) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-y-to": (
+                    "--mask-linear-to-color": "*",
+                    "mask-image":
+                        "linear-gradient(to top, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color) var(--mask-linear-to, 100%)), linear-gradient(to bottom, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-x-from": (
+                    "--mask-linear-from-color": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%)), linear-gradient(to left, var(--mask-linear-from-color) var(--mask-linear-from, 0%), var(--mask-linear-to-color, transparent) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-x-to": (
+                    "--mask-linear-to-color": "*",
+                    "mask-image":
+                        "linear-gradient(to right, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color) var(--mask-linear-to, 100%)), linear-gradient(to left, var(--mask-linear-from-color, black) var(--mask-linear-from, 0%), var(--mask-linear-to-color) var(--mask-linear-to, 100%))",
+                    "mask-composite": "intersect",
+                ),
+                "mask-radial-from": (
+                    "--mask-radial-from-color": "*",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position, center), var(--mask-radial-from-color) var(--mask-radial-from, 0%), var(--mask-radial-to-color, transparent) var(--mask-radial-to, 100%))",
+                ),
+                "mask-radial-to": (
+                    "--mask-radial-to-color": "*",
+                    "mask-image":
+                        "radial-gradient(var(--mask-radial-shape, circle) var(--mask-radial-size, farthest-corner) at var(--mask-radial-position, center), var(--mask-radial-from-color, black) var(--mask-radial-from, 0%), var(--mask-radial-to-color) var(--mask-radial-to, 100%))",
+                ),
+                "mask-conic-from": (
+                    "--mask-conic-from-color": "*",
+                    "mask-image":
+                        "conic-gradient(from var(--mask-conic-position, 0deg), var(--mask-conic-from-color) var(--mask-conic-from, 0%), var(--mask-conic-to-color, transparent) var(--mask-conic-to, 100%))",
+                ),
+                "mask-conic-to": (
+                    "--mask-conic-to-color": "*",
+                    "mask-image":
+                        "conic-gradient(from var(--mask-conic-position, 0deg), var(--mask-conic-from-color, black) var(--mask-conic-from, 0%), var(--mask-conic-to-color) var(--mask-conic-to, 100%))",
+                ),
+            ),
+        ),
+    ),
+);

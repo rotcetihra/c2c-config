@@ -1,5 +1,5 @@
+@use "pkg:@rotcetihra/c2c" as compile;
 @use "reset";
-@use "generate";
 @use "layout";
 @use "flexbox";
 @use "intervals";
@@ -20,18 +20,18 @@
     box-sizing: border-box;
 }
 
-@include generate.by(layout.$config);
-@include generate.by(flexbox.$config);
-@include generate.by(intervals.$config);
-@include generate.by(sizes.$config);
-@include generate.by(typography.$config);
-@include generate.by(backgrounds.$config);
-@include generate.by(borders.$config);
-@include generate.by(effects.$config);
-@include generate.by(filters.$config);
-@include generate.by(tables.$config);
-@include generate.by(animations.$config);
-@include generate.by(transformations.$config);
-@include generate.by(interactivity.$config);
-@include generate.by(svg.$config);
-@include generate.by(availability.$config);
+@include compile.by(layout.$config);
+@include compile.by(flexbox.$config);
+@include compile.by(intervals.$config);
+@include compile.by(sizes.$config);
+@include compile.by(typography.$config);
+@include compile.by(backgrounds.$config);
+@include compile.by(borders.$config);
+@include compile.by(effects.$config);
+@include compile.by(filters.$config);
+@include compile.by(tables.$config);
+@include compile.by(animations.$config);
+@include compile.by(transformations.$config);
+@include compile.by(interactivity.$config);
+@include compile.by(svg.$config);
+@include compile.by(availability.$config);

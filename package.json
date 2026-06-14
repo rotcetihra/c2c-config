@@ -1,6 +1,6 @@
 {
     "name": "@rotcetihra/c2c-config",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Библиотека конфигурационных матриц для атомарного CSS-компилятора C2C, построенная по философии TailwindCSS.",
     "main": "src/index.scss",
     "sass": "src/index.scss",

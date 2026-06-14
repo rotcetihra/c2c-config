@@ -62,6 +62,39 @@ $config: (
                     "ml-px": "1px",
                     "-ml-px": "-1px",
                 ),
+                "padding": (
+                    "p-px": "1px",
+                ),
+                "padding-inline": (
+                    "px-px": "1px",
+                ),
+                "padding-block": (
+                    "py-px": "1px",
+                ),
+                "padding-inline-start": (
+                    "ps-px": "1px",
+                ),
+                "padding-inline-end": (
+                    "pe-px": "1px",
+                ),
+                "padding-block-start": (
+                    "pbs-px": "1px",
+                ),
+                "padding-block-end": (
+                    "pbe-px": "1px",
+                ),
+                "padding-top": (
+                    "pt-px": "1px",
+                ),
+                "padding-right": (
+                    "pr-px": "1px",
+                ),
+                "padding-bottom": (
+                    "pb-px": "1px",
+                ),
+                "padding-left": (
+                    "pl-px": "1px",
+                ),
             ),
         ),
     ),
@@ -97,6 +130,17 @@ $config: (
                     "margin-block-start",
                     "margin-block-end",
                 ),
+                "p": "padding",
+                "px": "padding-inline",
+                "py": "padding-block",
+                "ps": "padding-inline-start",
+                "pe": "padding-inline-end",
+                "pbs": "padding-block-start",
+                "pbe": "padding-block-end",
+                "pt": "padding-top",
+                "pr": "padding-right",
+                "pb": "padding-bottom",
+                "pl": "padding-left",
             ),
         ),
         (
